@@ -1,0 +1,137 @@
+*{ 
+    margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   }
+   
+   html, body{ 
+   font-family: Arial, Helvetica, sans-serif; /*fontes*/
+   color: black; /*cor da fonte*/
+   font-size: 62.5%;
+   text-rendering: optimizeLegibility;
+   }
+
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+button:hover{
+    color: black;
+transform: scale(1.001);
+    transition: all 0.3s;
+}
+
+a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+    -webkit-filter: drop-shadow(1.5rem 1rem 0.5rem rgba(0,0,0,.5));
+    filter: drop-shadow(1.5rem 1rem 0.5rem rgba(0,0,0,.5));  
+    
+}
+
+.Desktop1{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: white
+}
+
+.Rectangle1{
+    width: 20rem; 
+    height: 20rem; 
+    left: 4.3rem;
+    top: 1rem ;
+    position: absolute;
+}
+
+.Ellipse1{
+    width: 9rem;
+     height: 9rem;
+      left: 125.7rem;
+       top: 3.9rem; position: absolute;
+        background: #D9D9D9; 
+        border-radius: 999.9rem
+}
+
+
+
+.Professor{
+    left: 105.9rem;
+     top: 7.2rem; 
+     position: absolute;
+      color: black; 
+      font-size: 3.6rem; 
+      
+       font-style: italic; 
+       font-weight: 500; 
+       line-height: 2.4rem;
+        word-wrap: break-word
+}
+
+.EnsinoMedio{
+    width: 50.8rem;
+     height: 5.1rem;
+      left: 43.9rem; 
+      top: 22.1rem; 
+      position: absolute;
+       color: #DC1F13;
+        font-size: 6.4rem;
+         
+          font-weight: 40rem; 
+          line-height: 2.4rem; 
+          word-wrap: break-word
+}
+
+
+.Line1
+{
+    width: 81.1rem;
+     height: 0rem; 
+     left: 5rem; 
+     top: 39.1rem; 
+     position: absolute;
+      border: 0.05rem #DC1F13 solid
+}
+
+
+
+.add{
+    left: 81.8rem;
+     top: 35.2rem;
+      position: absolute;
+       color: #DC1F13;
+        font-size: 6.4rem; 
+        
+         font-style: italic;
+          font-weight: 50rem; 
+          line-height: 2.4rem; 
+          word-wrap: break-word
+}
+
+.AdicionarRecado{
+    left: 5rem; 
+    top: 34.9rem; 
+    position: absolute; 
+    opacity: 0.050rem; 
+    color: black;
+     font-size: 3.6rem;
+      border: none;
+       font-style: italic;
+        font-weight: 50rem; 
+        line-height: 2.4rem; 
+        word-wrap: break-word
+}
+
+
+.Rectangle2{
+    width: 44.3rem; 
+    height: 25rem;
+     left: 5rem; 
+     top: 47rem; 
+     position: absolute;
+     background: #D9D9D9;
+      border-radius: 5rem
+
+}
