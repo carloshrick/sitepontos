@@ -1,0 +1,279 @@
+*{ 
+    margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   }
+   
+   html, body{ 
+   font-family: Arial, Helvetica, sans-serif; /*fontes*/
+   color: black; /*cor da fonte*/
+   font-size: 62.5%;
+   text-rendering: optimizeLegibility;
+   }
+
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+button:hover{
+    color: black;
+transform: scale(1.001);
+    transition: all 0.3s;
+}
+
+a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+    -webkit-filter: drop-shadow(1.5rem 1rem 0.5rem rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
+    
+}
+
+   .Desktop1{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: white
+
+
+   }
+
+   .Rectangle1{
+    width: 20rem; 
+    height: 20rem; 
+    left: 4.3rem;
+    top: 1rem ;
+    position: absolute;
+   }
+
+   .Ellipse1{
+    width: 9rem;
+     height: 9rem; 
+     left: 128.4rem; 
+     top: 5.5rem; 
+     position: absolute; 
+     background: #D9D9D9; 
+     border-radius: 999.9rem
+
+   }
+
+   .Professor{
+    left: 108.6rem;
+     top: 8.8rem;
+      position: absolute;
+       color: black;
+        font-size: 3.6rem; 
+       
+         font-style: italic;
+          font-weight: 50rem; 
+          line-height: 2.4rem;
+           word-wrap: break-word
+   }
+
+   .Ensinomedio{
+    width: 50.8rem; 
+    height: 5.1rem;
+    left: 46.6rem; 
+    top: 23.7rem;
+     position: absolute; 
+     color: #DC1F13; 
+     font-size: 6.4rem; 
+      
+     font-weight: 40rem; 
+     line-height: 2.4rem;
+      word-wrap: break-word
+   }
+
+   .Line1
+   {
+    width: 81.1rem; 
+    height: 0rem; 
+    left: 6.1rem; 
+    top: 55.2rem; 
+    position: absolute;
+     border: 0.05rem #DC1F13 solid
+   }
+
+   .add{
+    left: 82.9rem; 
+    top: 51.3rem;
+     position: absolute; 
+     color: #DC1F13; 
+     font-size: 6.4rem;
+     
+       font-style: italic;
+        font-weight: 50rem; 
+        line-height: 2.4rem;
+         word-wrap: break-word
+   }
+
+   .AdicionarAluno{
+    left: 6.1rem;
+     top: 51rem; 
+     position: absolute; 
+     opacity: 0.05rem; 
+     color: black; 
+     font-size: 3.6rem;
+     border: none;
+       font-style: italic;
+        font-weight: 50rem; 
+        line-height: 2.4rem; 
+        word-wrap: break-word
+   }
+
+
+   .CarlosHenriqueDeSouza{
+    left: 6.1rem; 
+    top: 62.4rem;
+     position: absolute;
+      color: black; 
+      font-size: 3.6rem;
+       
+       font-style: italic;
+        font-weight: 50rem;
+         line-height: 2.4rem;
+          word-wrap: break-word
+   }
+
+   .Rectangle2{
+    width: 7.2rem; 
+    height: 2rem; 
+    left: 53.1rem; 
+    top: 62.9rem; 
+    position: absolute;
+     background: #D9D9D9
+   }
+
+   .Pts{
+    width: 8.506rem; 
+    height: 2.718rem;
+     left: 55.3rem; 
+     top: 62.562rem; 
+     position: absolute; 
+     color: black; 
+     font-size: 1.3rem;
+     
+      font-style: italic;
+       font-weight: 50rem; 
+       line-height: 2.4rem;
+        word-wrap: break-word
+   }
+
+   .Editar{
+    left: 54.9rem;
+     top: 60.1rem;
+      position: absolute;
+       color: black;
+       font-size: 1.3rem; 
+      
+        font-style: italic; 
+        font-weight: 50rem; 
+        line-height: 2.4rem; 
+        word-wrap: break-word
+   }
+
+   .Deletar{
+    left: 66.6rem; 
+    top: 62.3rem; 
+    position: absolute;
+     color: #BA2929;
+      font-size: 3.6rem; 
+      
+      font-style: italic; 
+      font-weight: 50rem; 
+      line-height: 2.4rem; 
+      word-wrap: break-word
+   }
+
+   .CarlosHenriqueDeSouza2{
+    width: 44.2rem;
+     height: 2.5rem; 
+     left: 5.9rem; 
+     top: 70.8rem; 
+     position: absolute;
+      color: black; 
+      font-size: 3.6rem; 
+     
+       font-style: italic;
+        font-weight: 50rem; 
+        line-height: 2.4rem;
+         word-wrap: break-word
+   }
+
+   .Rectangle3{
+    width: 7.2rem; 
+    height: 2.1rem;
+     left: 52.9rem; 
+     top: 71.3rem;
+      position: absolute; 
+      background: #D9D9D9
+   }
+
+   .Pts2{
+    width: 8.506rem; 
+    height: 2.823rem;
+     left: 55.1rem;
+      top: 70.957rem; 
+      position: absolute; 
+      color: black; 
+      font-size: 1.3rem; 
+      
+      font-style: italic; 
+      font-weight: 50rem; 
+      line-height: 2.4rem; 
+      word-wrap: break-word
+   }
+
+   .Editar2{
+    width: 3.6rem;
+     height: 2.5rem;
+      left: 54.7rem; 
+      top: 68.4rem;
+       position: absolute; 
+       color: black; 
+       font-size: 1.3rem; 
+      
+        font-style: italic;
+         font-weight: 50rem;
+          line-height: 2.4rem;
+           word-wrap: break-word
+   }
+
+   .Deletar2{
+    width: 2rem;
+     height: 2.5rem;
+      left: 66.4rem; 
+      top: 70.7rem; 
+      position: absolute; 
+      color: #BA2929; 
+      font-size: 3.6rem; 
+     
+       font-style: italic;
+        font-weight: 50rem;
+         line-height: 2.4rem;
+          word-wrap: break-word
+   }
+
+   .Rectangle6{
+    width: 28.2rem;
+     height: 6.2rem;
+      left: 56.9rem;
+       top: 41.3rem;
+        position: absolute; 
+        background: #D9D9D9
+   }
+
+   .Atividades{
+    left: 59.6rem; 
+    top: 43.2rem; 
+    position: absolute; 
+    color: black; 
+    font-size: 4.8rem;
+    
+      font-style: italic; 
+      font-weight: 50rem; 
+      line-height: 2.4rem; 
+      word-wrap: break-word
+   }
